@@ -1,0 +1,162 @@
+17:01:21.869[INFO ][main]com.test.oneBoot.Application - Starting Application on RYHKJ1KJO1MS3OL with PID 6612 (E:\workspace\oneBoot\target\classes started by Administrator in E:\workspace\oneBoot)
+17:01:21.873[INFO ][main]com.test.oneBoot.Application - No active profile set, falling back to default profiles: default
+17:01:21.908[INFO ][main]o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d740a0f: startup date [Tue Jan 23 17:01:21 CST 2018]; root of context hierarchy
+17:01:22.178[INFO ][background-preinit]o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+17:01:22.997[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+17:01:23.008[INFO ][main]o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:01:23.010[INFO ][main]o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+17:01:23.119[INFO ][localhost-startStop-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:01:23.120[INFO ][localhost-startStop-1]o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1212 ms
+17:01:23.259[INFO ][localhost-startStop-1]o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+17:01:23.262[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:01:23.263[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:01:23.263[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:01:23.263[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:01:23.533[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d740a0f: startup date [Tue Jan 23 17:01:21 CST 2018]; root of context hierarchy
+17:01:23.588[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/abc/{name}/{num}],methods=[GET]}" onto public java.lang.String com.test.oneBoot.controller.CC.abc(java.lang.String,java.lang.String)
+17:01:23.591[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:01:23.591[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:01:23.616[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:01:23.616[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:01:23.642[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:01:23.764[INFO ][main]o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:01:23.776[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:01:23.786[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:01:23.805[INFO ][main]o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:01:23.819[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+17:01:23.822[INFO ][main]com.test.oneBoot.Application - Started Application in 2.166 seconds (JVM running for 2.664)
+17:01:57.420[INFO ][http-nio-8081-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:01:57.420[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:01:57.434[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+17:01:57.458[INFO ][http-nio-8081-exec-1]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:02:08.368[INFO ][http-nio-8081-exec-4]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:02:13.821[INFO ][http-nio-8081-exec-5]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:02:26.526[INFO ][http-nio-8081-exec-9]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:04:07.479[INFO ][main]com.test.oneBoot.Application - Starting Application on RYHKJ1KJO1MS3OL with PID 10940 (E:\workspace\oneBoot\target\classes started by Administrator in E:\workspace\oneBoot)
+17:04:07.481[INFO ][main]com.test.oneBoot.Application - No active profile set, falling back to default profiles: default
+17:04:07.514[INFO ][main]o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d740a0f: startup date [Tue Jan 23 17:04:07 CST 2018]; root of context hierarchy
+17:04:07.725[INFO ][background-preinit]o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+17:04:08.645[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+17:04:08.655[INFO ][main]o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:04:08.656[INFO ][main]o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+17:04:08.738[INFO ][localhost-startStop-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:04:08.738[INFO ][localhost-startStop-1]o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1224 ms
+17:04:08.869[INFO ][localhost-startStop-1]o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+17:04:08.872[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:04:08.872[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:04:08.872[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:04:08.872[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:04:09.096[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d740a0f: startup date [Tue Jan 23 17:04:07 CST 2018]; root of context hierarchy
+17:04:09.151[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/abc/{name}/{num}],methods=[GET]}" onto public java.lang.String com.test.oneBoot.controller.CC.abc(java.lang.String,java.lang.String)
+17:04:09.153[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:04:09.153[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:04:09.181[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:04:09.182[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:04:09.211[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:04:09.354[INFO ][main]o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:04:09.371[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:04:09.381[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:04:09.396[INFO ][main]o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:04:09.412[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+17:04:09.415[INFO ][main]com.test.oneBoot.Application - Started Application in 2.131 seconds (JVM running for 2.507)
+17:04:22.883[INFO ][http-nio-8081-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:04:22.883[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:04:22.894[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+17:04:22.916[INFO ][http-nio-8081-exec-1]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:04:46.112[INFO ][http-nio-8081-exec-2]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:05:12.107[INFO ][http-nio-8081-exec-3]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:07:39.668[INFO ][main]com.test.oneBoot.Application - Starting Application on RYHKJ1KJO1MS3OL with PID 1580 (E:\workspace\oneBoot\target\classes started by Administrator in E:\workspace\oneBoot)
+17:07:39.670[INFO ][main]com.test.oneBoot.Application - No active profile set, falling back to default profiles: default
+17:07:39.707[INFO ][main]o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Tue Jan 23 17:07:39 CST 2018]; root of context hierarchy
+17:07:39.906[INFO ][background-preinit]o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+17:07:40.766[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+17:07:40.777[INFO ][main]o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:07:40.778[INFO ][main]o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+17:07:40.868[INFO ][localhost-startStop-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:07:40.868[INFO ][localhost-startStop-1]o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1161 ms
+17:07:40.992[INFO ][localhost-startStop-1]o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+17:07:40.995[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:07:40.996[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:07:40.996[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:07:40.997[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:07:41.231[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Tue Jan 23 17:07:39 CST 2018]; root of context hierarchy
+17:07:41.283[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/abc/{name}/{num}],methods=[GET]}" onto public java.lang.String com.test.oneBoot.controller.CC.abc(java.lang.String,java.lang.String)
+17:07:41.285[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:07:41.286[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:07:41.311[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:07:41.311[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:07:41.343[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:07:41.440[INFO ][main]o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:07:41.455[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:07:41.463[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:07:41.478[INFO ][main]o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:07:41.493[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+17:07:41.498[INFO ][main]com.test.oneBoot.Application - Started Application in 2.036 seconds (JVM running for 2.411)
+17:10:35.469[INFO ][main]com.test.oneBoot.Application - Starting Application on RYHKJ1KJO1MS3OL with PID 4944 (E:\workspace\oneBoot\target\classes started by Administrator in E:\workspace\oneBoot)
+17:10:35.471[INFO ][main]com.test.oneBoot.Application - No active profile set, falling back to default profiles: default
+17:10:35.508[INFO ][main]o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Tue Jan 23 17:10:35 CST 2018]; root of context hierarchy
+17:10:35.720[INFO ][background-preinit]o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+17:10:36.583[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+17:10:36.593[INFO ][main]o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:10:36.594[INFO ][main]o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+17:10:36.678[INFO ][localhost-startStop-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:10:36.678[INFO ][localhost-startStop-1]o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1170 ms
+17:10:36.808[INFO ][localhost-startStop-1]o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+17:10:36.812[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:10:36.813[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:10:36.813[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:10:36.813[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:10:37.055[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Tue Jan 23 17:10:35 CST 2018]; root of context hierarchy
+17:10:37.104[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/abc/{name}/{num}],methods=[GET]}" onto public java.lang.String com.test.oneBoot.controller.CC.abc(java.lang.String,java.lang.String)
+17:10:37.106[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:10:37.107[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:10:37.130[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:10:37.130[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:10:37.167[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:10:37.271[INFO ][main]o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:10:37.284[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:10:37.296[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:10:37.315[INFO ][main]o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:10:37.334[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+17:10:37.340[INFO ][main]com.test.oneBoot.Application - Started Application in 2.075 seconds (JVM running for 2.419)
+17:10:51.749[INFO ][http-nio-8081-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:10:51.750[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:10:51.760[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+17:10:51.784[INFO ][http-nio-8081-exec-1]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:10:51.784[INFO ][http-nio-8081-exec-1]com.test.oneBoot.controller.CC - 少時誦詩書所所
+17:11:11.664[INFO ][http-nio-8081-exec-2]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:11:11.664[INFO ][http-nio-8081-exec-2]com.test.oneBoot.controller.CC - 少時誦詩書所所
+17:11:19.653[INFO ][http-nio-8081-exec-3]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:11:19.654[INFO ][http-nio-8081-exec-3]com.test.oneBoot.controller.CC - 少時誦詩書所所
+17:12:59.781[INFO ][main]com.test.oneBoot.Application - Starting Application on RYHKJ1KJO1MS3OL with PID 10384 (E:\workspace\oneBoot\target\classes started by Administrator in E:\workspace\oneBoot)
+17:12:59.782[INFO ][main]com.test.oneBoot.Application - No active profile set, falling back to default profiles: default
+17:12:59.822[INFO ][main]o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Tue Jan 23 17:12:59 CST 2018]; root of context hierarchy
+17:13:00.058[INFO ][background-preinit]o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+17:13:00.909[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+17:13:00.923[INFO ][main]o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:13:00.924[INFO ][main]o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+17:13:01.006[INFO ][localhost-startStop-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:13:01.006[INFO ][localhost-startStop-1]o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1184 ms
+17:13:01.117[INFO ][localhost-startStop-1]o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+17:13:01.120[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:13:01.121[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:13:01.121[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:13:01.121[INFO ][localhost-startStop-1]o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:13:01.335[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20d3d15a: startup date [Tue Jan 23 17:12:59 CST 2018]; root of context hierarchy
+17:13:01.385[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/abc/{name}/{num}],methods=[GET]}" onto public java.lang.String com.test.oneBoot.controller.CC.abc(java.lang.String,java.lang.String)
+17:13:01.386[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:13:01.387[INFO ][main]o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:13:01.409[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:13:01.409[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:13:01.433[INFO ][main]o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:13:01.536[INFO ][main]o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:13:01.553[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+17:13:01.562[INFO ][main]o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+17:13:01.575[INFO ][main]o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:13:01.589[INFO ][main]o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+17:13:01.594[INFO ][main]com.test.oneBoot.Application - Started Application in 2.015 seconds (JVM running for 2.371)
+17:13:44.545[INFO ][http-nio-8081-exec-1]o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:13:44.545[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:13:44.556[INFO ][http-nio-8081-exec-1]o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+17:13:44.580[INFO ][http-nio-8081-exec-1]com.test.oneBoot.controller.CC - ----------name :1,num: 1
+17:13:44.580[INFO ][http-nio-8081-exec-1]com.test.oneBoot.controller.CC - 少時誦詩書所所
